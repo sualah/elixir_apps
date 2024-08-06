@@ -40,6 +40,7 @@ defmodule Example do
   IO.inspect(date)
   IO.inspect(date_time)
   IO.inspect(date_time.year)
+  
 
   end
 end
