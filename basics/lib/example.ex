@@ -33,13 +33,13 @@ defmodule Example do
   # IO.puts(Integer.gcd(25, 30)) # ans: 5
 
   # --------- dates & times ---------
-  # time = Time.new!(16, 30, 0, 0)
-  # date = Date.new!(2025, 1, 1)
-  # date_time = DateTime.new!(date, time, "Etc/UTC")
-  # IO.inspect(time)
-  # IO.inspect(date)
-  # IO.inspect(date_time)
-  # IO.inspect(date_time.year)
+  time = Time.new!(16, 30, 0, 0)
+  date = Date.new!(2025, 1, 1)
+  date_time = DateTime.new!(date, time, "Etc/UTC")
+  IO.inspect(time)
+  IO.inspect(date)
+  IO.inspect(date_time)
+  IO.inspect(date_time.year)
 
 
   end
