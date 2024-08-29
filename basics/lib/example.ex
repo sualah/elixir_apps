@@ -134,7 +134,7 @@ defmodule Example do
       # print_numbers(result)
 
       {sum, average} = sum_and_average(numbers)
-      IO.puts("Sum: #{sum}, average: #{average}")
+      IO.puts("Sum is: #{sum}, average: #{average}")
   end
 
   def get_numbers do
